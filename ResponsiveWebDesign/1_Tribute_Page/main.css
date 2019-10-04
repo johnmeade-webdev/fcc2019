@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans';
+  background-color: #3a1616;
+  color: white;
+}
+
+h1, h2, h3, main, footer, span {
+  margin: 0;
+  padding: 0;
+}
+
+section, aside {
+  margin: 1em 0;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1, h2 {
+  font-family: "Poiret One";
+}
+
+/* Header Styles */
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+/* Image Div */
+
+#img-div{
+  width: 50%;
+  overflow: hidden;
+  margin: auto;
+  background-color: #010821;
+  box-shadow: 3px 3px 10px #402c2c;
+  color: #bdf9f7;
+}
+
+#image {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 20px;
+  margin: 1em auto;
+}
+
+#img-div p {
+  text-align: center;
+  color: #d9dbe2;
+}
+
+/* Main Section Styles */
+
+main {
+  margin: 1em 2em;
+}
+
+#tribute-info {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#tribute-info h2 {
+  margin: 1em 0;
+  text-align: center;
+}
+
+#tribute-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: hsla(209, 79%, 59%, 0.11);
+  width: 60%;
+  border-radius: 10px;
+}
+
+#tribute-data div {
+  width: 100%;
+  border-top: 2px solid black;
+}
+
+#tribute-data div h2 {
+  text-align: center;
+  padding-top: .5em;
+}
+
+/* Aside Styles */
+
+aside {
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+/* Footer Styles */
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+
+h3 {
+  font-size: .75em;
+}
+
+@media (max-width: 630px) {
+  #tribute-data, #tribute-info {
+    width: 95%;
+  }
+}
